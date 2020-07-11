@@ -2,7 +2,6 @@
     position: fixed;
     top: 50%;
     left: 2em;
-    background-color: var(--bg-primary);
     transform: translateY(-50%);
     visibility: hidden;
     opacity: 0;
@@ -11,14 +10,6 @@
     .menu-item-icon {
         font-size: 2em;
     }
-}
-.dark-mode {
-  .menu-item {
-    background-color: var(--bg-primary);
-  }
-  .menu-item:hover {
-    background-color: var(--text-primary);
-  }
 }
 .menu-active {
     .menu-item {
